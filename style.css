@@ -1,0 +1,63 @@
+.back{
+    background-attachment:inherit;
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    width: 100vh;  
+    
+  
+}
+.card-img {
+    display: flex;
+    justify-content: center;
+    object-fit:cover ;
+    background-attachment: filled;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2em;
+    
+}
+.card {
+    background-position: center;
+    background-attachment: filled;
+    box-sizing: border-box;
+    background-image: url('../back.jpg');
+    background-repeat: no-repeat;
+   
+}
+.card-body {
+    background-color: rgba(204, 10, 10, 0.732);
+    background-attachment: filled;
+    background-position: center;
+    font-size: 1.5em;
+    
+}
+.card-text {
+   background-color: darkred;
+   color: darkorange;
+   font-family: 'Bebas Neue', sans-serif;
+   
+
+
+}
+.button-primary{
+    height: 3em;
+    width: 4em;
+}
+.shopCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 20vw;
+    box-sizing: border-box;
+
+}
+.col-de-4{
+    width: 60%;
+}
